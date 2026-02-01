@@ -1,4 +1,4 @@
-# Portfolio Professionnel – Diarra Dabo
+# Portfolio Professionnel – Fatoumata Diarra Dabo
 
 ## 📌 Description
 Ce projet est un portfolio professionnel réalisé dans le cadre du module
@@ -21,5 +21,5 @@ en utilisant **HTML** et **Tailwind CSS**.
 Le site est déployé en ligne via GitHub Pages / Netlify / Vercel.
 
 ## 👤 Auteur
-**Diarra Dabo**  
+**Fatoumata Diarra Dabo**  
 Étudiant en génie informatique
