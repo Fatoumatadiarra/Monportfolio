@@ -4,7 +4,7 @@
 Ce projet est un portfolio professionnel réalisé dans le cadre du module
 **Développement Web Frontend/Backend**.
 
-Il présente mon profil, mes compétences, mes formations et mes projets
+Je présente mon profil, mes compétences, mes formations et mes projets
 en utilisant **HTML** et **Tailwind CSS**.
 
 ## Technologies utilisées
