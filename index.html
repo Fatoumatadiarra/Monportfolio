@@ -163,59 +163,60 @@
       </div>
     </div>
   </section>
-  <section id="contact" class="bg-gray-300 text-black-400 py-20">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-2 text-gray-800">Contactez-moi</h2>
-       <form class="space-y-4 text-left">
-      <div>
-        <label class="text-xs text-gray-500">
-          Nom
-        </label>
-        <input
-          type="text"
-          placeholder="Votre nom"
-          class="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-      </div>
-      <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Prenom
-        </label>
-        <input
-          type="text"
-          placeholder="Votre prenom"
-          class="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-      </div>
-      <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Email
-        </label>
-        <input
-          type="email"
-          placeholder="exemple@email.com"
-          class="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-      </div>
-      <div>
-        <label class="block text-sm font-medium text-gray-700 mb-1">
-          Message
-        </label>
-        <textarea
-          rows="4"
-          placeholder="Votre message..."
-          class="w-full rounded-lg border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-        ></textarea>
-      </div>
-      <button
-        type="submit"
-        class="w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300"
-      >
-        Envoyer
-      </button>
-    </form>
+ <section id="contact" class="bg-gray-50 py-20 px-4">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse gap-12 items-center">
+
+    <!-- TEXTE -->
+    <div class="md:w-1/2 text-gray-700">
+      <h2 class="text-3xl font-bold text-gray-600 mb-4">
+        Travaillons ensemble
+      </h2>
+
+      <p class="mb-2">
+        Vous avez un projet, une idée ou une opportunité ?
+      </p>
+      <p class="mb-2">
+        N’hésitez pas à me contacter via ce formulaire.
+      </p>
+      <p>
+        Je suis disponible pour des missions freelance,
+        collaborations ou stages.
+      </p>
     </div>
-  </section>
+
+    <!-- FORMULAIRE -->
+    <div class="md:w-1/2 w-full max-w-md bg-white p-8 rounded-2xl shadow-lg hover:scale-105 transition">
+      
+      <h2 class="text-2xl font-bold text-center text-gray-600 mb-6">
+        Contactez-moi
+      </h2>
+
+      <form id="contactForm" class="space-y-4">
+
+        <input type="text" name="name" placeholder="Nom" required
+          class="w-full bg-gray-50 border border-gray-300 rounded px-4 py-2
+                 focus:ring-2 focus:ring-cyan-400 outline-none">
+        <input type="text" name="prenom" placeholder="prenom" required
+          class="w-full bg-gray-50 border border-gray-300 rounded px-4 py-2
+                 focus:ring-2 focus:ring-cyan-400 outline-none">
+        <input type="email" name="email" placeholder="Email" required
+          class="w-full bg-gray-50 border border-gray-300 rounded px-4 py-2
+                 focus:ring-2 focus:ring-cyan-400 outline-none">
+
+        <textarea name="message" rows="4" placeholder="Message" required
+          class="w-full bg-gray-50 border border-gray-300 rounded px-4 py-2
+                 focus:ring-2 focus:ring-cyan-400 outline-none"></textarea>
+
+        <button type="submit"
+          class="w-full bg-gray-500 text-white font-semibold py-2 rounded
+                 hover:bg-gray-600 transition">
+          Envoyer
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
   <footer class="bg-black text-gray-400 text-center py-4">
     <p>© 2026 Diarra Dabo — Tous droits réservés</p>
         <p>fatoumatadiarradabo387@gmail.com</p>
